@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LeanLens - AI Fitness Coach</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>LeanLens</h1>
+  <p>Upload a photo and receive a personalized fat-loss plan powered by Azure AI.</p>
+
+  <div class="form-group">
+    <input type="file" id="photo" accept="image/*">
+    <input type="number" id="goal" placeholder="Target Body Fat %" min="5" max="50">
+    <select id="type">
+      <option value="">Select Goal Type</option>
+      <option value="Fit">Fit</option>
+      <option value="Athletic">Athletic</option>
+      <option value="Lean">Lean</option>
+    </select>
+    <button onclick="analyze()">Analyze & Generate Plan</button>
+  </div>
+
+  <div id="result" style="display:none;">
+    <h2>Results</h2>
+    <p><strong>Estimated Current Body Fat:</strong> <span id="fat-pct"></span>%</p>
+    <p><strong>Target:</strong> <span id="goal-text"></span></p>
+    <div class="plan" id="plan-text"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

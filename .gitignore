@@ -1,0 +1,29 @@
+# Ignore Python virtual environments
+leanlens-env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# macOS metadata
+.DS_Store
+
+# VSCode settings (optional)
+.vscode/
+
+# Jupyter checkpoints (if used)
+.ipynb_checkpoints/
+
+# Environment files (optional)
+.env
+.env.*
+
+# Logs
+*.log

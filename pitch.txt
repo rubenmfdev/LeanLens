@@ -1,0 +1,6 @@
+LeanLens: AI Body Fat Analyzer & Fitness Coach
+LeanLens is a smart, AI-powered web app that estimates your body fat percentage from a single image and instantly generates a personalized fat-loss plan to help you reach your ideal physique.
+
+Using Azure AI Vision, LeanLens analyzes full-body images to assess fat percentage and categorize body type. It then leverages Azure OpenAI (GPT-4) to craft a tailored fitness plan, including diet recommendations, workout routines, and time estimates — all based on your personal goals.
+
+No gym membership or complicated metrics — just snap, upload, and get your roadmap to a leaner you.
